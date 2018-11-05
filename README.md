@@ -22,41 +22,7 @@ build:
 
 测试系统:ubuntu16.04 
 测试cpu: Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz
-测试结果（可见test_result.png）：
-liujian@liujian-B85-HD3-A:~/devel/test_cpp/RandomStrSort$ ./MultiThreadSort
-average count 4653884.398864
-average count 4751940.725604
-average count 4651123.509344
-average count 4733543.606984
-average count 4562420.224344
-^C
-recv signal 2, quit process...
-liujian@liujian-B85-HD3-A:~/devel/test_cpp/RandomStrSort$ ./SingleThreadSort
-average count 3460005.029768
-average count 3430066.148549
-average count 3580267.770642
-average count 3426608.089663
-average count 3396661.582337
-^C
-liujian@liujian-B85-HD3-A:~/devel/test_cpp/RandomStrSort$ ./MultiThreadSortSingleCpu 
-average count 2341561.919556
-average count 2366205.492677
-average count 2364837.060378
-average count 2325670.513188
-average count 2331645.211902
-^C
-recv signal 2, quit process...
-liujian@liujian-B85-HD3-A:~/devel/test_cpp/RandomStrSort$ ./SingleThreadSortSingleCpu 
-average count 3404547.287650
-average count 3447517.020729
-average count 3461699.082995
-average count 3427477.391089
-average count 3382086.388501
-average count 3498385.328633
-average count 3400335.864994
-average count 3376101.510196
-average count 3414791.645651
-
+测试结果（test_result.png)
 
 
 总结：
